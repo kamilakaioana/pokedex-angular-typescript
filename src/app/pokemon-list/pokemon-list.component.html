@@ -1,6 +1,6 @@
-<app-pokemon-card></app-pokemon-card>
-<app-pokemon-card></app-pokemon-card>
-<app-pokemon-card></app-pokemon-card>
-<app-pokemon-card></app-pokemon-card>
+<app-pokemon-card
+ *ngFor="let pokemon of pokemons"
+ [pokemon]="pokemon"></app-pokemon-card>
+
 
 
