@@ -1,5 +1,5 @@
 <div class="pokemon-card" *ngIf="pokemon">
-    <div class="pokemon-card__image">
+    <div  [ngClass]="setClasses()">
         <!-- <img 
           [src]="pokemon.image"
           alt="pokemon image"> -->
